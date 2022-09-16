@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MainComponent } from '../main/main.component';
 
 @Component({
   selector: 'app-login',
@@ -29,10 +30,9 @@ export class LoginComponent implements OnInit {
 
 
 
-  powers = ['Really Smart', 'Super Flexible',
-            'Super Hot', 'Weather Changer'];
+  //public powers = ['Really Smart', 'Super Flexible','Super Hot', 'Weather Changer'];
 
-  model = {id: 18, name: 'Dr IQ', power: this.powers[0], alterEgo: 'Chuck Overstreet'};
+  public model = {id: 1, name: 'Dr IQ', pass: '1234'};
 
 
 
